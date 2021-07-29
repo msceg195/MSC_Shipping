@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSC_Shipping", "MSC_Shipping.csproj", "{B7291373-EE38-430A-B4F2-A1D3D1128F38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSC_ShippingUnloadingReceipt", "MSC_ShippingUnloadingReceipt.csproj", "{B7291373-EE38-430A-B4F2-A1D3D1128F38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8FBD73B-188A-4090-B627-85A5D72FFF78}
 	EndGlobalSection
 EndGlobal

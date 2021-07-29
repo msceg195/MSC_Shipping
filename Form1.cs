@@ -23,6 +23,7 @@ namespace MSC_Shipping
             DataLayer.CreateConnection();
             txtCode.Text = GetCode();
 
+
             dtlines = DataLayer.ExecuteQuery_DataTable("select ID, LineName from Ship_Lines");
             cboLines.DataSource = dtlines;
             cboLines.DisplayMember = "LineName";
