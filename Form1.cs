@@ -37,6 +37,7 @@ namespace MSC_Shipping
 
         private void btnPrint_Click(object sender, EventArgs e)
         {
+
             Code = txtCode.Text.Trim();
             frmDate = dtpDate.Value.Date.ToString("yyyy/MM/dd");
             LineID = (cboLines.SelectedItem as DataRowView)["ID"].ToString();
